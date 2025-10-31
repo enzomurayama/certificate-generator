@@ -1,0 +1,17 @@
+# Ignorar arquivos de ambiente e credenciais
+.env
+
+# Ignorar cache e compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar saídas geradas
+certificados/
+*.png
+*.pdf
+
+# Ignorar arquivos temporários
+.DS_Store
+Thumbs.db
