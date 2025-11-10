@@ -7,7 +7,7 @@ def get_alunos_presentes():
     cursor = conn.cursor(dictionary=True)
 
     TOTAL_HORAS = int(os.getenv("TOTAL_HORAS_EVENTO", 45))
-    LIMITE_PRESENCA = float(os.getenv("LIMITE_PRESENCA", 0.70))
+    LIMITE_PRESENCA = float(os.getenv("LIMITE_PRESENCA", 0.75))
 
     print(f"🕒 Total de horas possíveis: {TOTAL_HORAS}")
 

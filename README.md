@@ -1,6 +1,6 @@
 # Gerador de Certificados
 
-Este projeto gera automaticamente certificados personalizados para estudantes com mais de 70% de presença em eventos cadastrados no banco MySQL. Feito especificamente para o evento SECOMP UFSCar.
+Este projeto gera automaticamente certificados personalizados para estudantes com mais de 75% de presença em eventos cadastrados no banco MySQL. Feito especificamente para o evento SECOMP UFSCar.
 
 Ele usa Python + Pillow + dotenv, e preenche automaticamente os nomes dos alunos sobre um modelo de certificado em PNG.
 
