@@ -6,6 +6,10 @@ Ele usa Python + Pillow + dotenv, e preenche automaticamente os nomes dos alunos
 
 <br>
 
+> 💡 **Dica:** Você pode adaptar o código facilmente para o seu próprio contexto, ajustando o nome das tabelas, colunas ou a estrutura do banco de dados conforme necessário.
+
+<br>
+
 ## 📜 Pré-requisitos
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -28,7 +32,19 @@ Será preciso ajustar as coordenadas de posicionamento do nome dos participantes
 
 <br>
 
-> 💡 **Dica:** Você pode adaptar o código facilmente para o seu próprio contexto, ajustando o nome das tabelas, colunas ou a estrutura do banco de dados conforme necessário.
+## 📧 Envio Automático de Certificados por E-mail
+
+O gerador também envia automaticamente o certificado para cada aluno aprovado, usando o e-mail cadastrado na tabela users do banco de dados. 
+
+O envio utiliza SMTP (Gmail por padrão), configurado através das variáveis de ambiente: _SMTP_USER_ e _SMTP_PASS_.
+
+<br>
+
+> 🔒 Dica: se estiver usando Gmail, será necessário criar uma App Password na sua conta para conseguir enviar e-mails via SMTP.
+
+<br>
+
+Durante os testes, você também pode optar por enviar todos os certificados para o seu próprio e-mail antes de ativar o envio real para os alunos.
 
 <br>
 
