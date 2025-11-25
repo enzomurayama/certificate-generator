@@ -30,6 +30,7 @@ def query_presenca_por_horas(TOTAL_HORAS, LIMITE_PRESENCA):
         )
         SELECT 
             u.nome,
+            u.email,
             SUM(
                 CASE 
                     WHEN pd.categoriaId = 1 THEN 4
@@ -62,6 +63,7 @@ def query_presenca_por_atividades(limite_minimo):
         )
         SELECT 
             u.nome,
+            u.email,
             COUNT(*) AS atividades_presentes
         FROM presencas_deduplicadas pd
         JOIN users u ON u.id = pd.userId
