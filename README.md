@@ -34,7 +34,7 @@ Será preciso ajustar as coordenadas de posicionamento do nome dos participantes
 
 ## 📧 Envio Automático de Certificados por E-mail
 
-O gerador também envia automaticamente o certificado para cada aluno aprovado, usando o e-mail cadastrado na tabela users do banco de dados. 
+O gerador também envia automaticamente o certificado para cada aluno aprovado, usando o e-mail cadastrado na tabela users do banco de dados. O modelo do e-mail é simples, mas facilmente personalizável.
 
 O envio utiliza SMTP (Gmail por padrão), configurado através das variáveis de ambiente: _SMTP_USER_ e _SMTP_PASS_.
 
